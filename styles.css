@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-image{
+    max-width: 100%;
+}
+
+.hero{
+    background-color: #1f1937;
+    max-height: 600px ;
+}
+
+.btn{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 28px;
+    border-radius: 9px;
+    border: 1px solid white;
+}
+
+.hero .btn{
+    border: none;
+}
+.hero .header p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero .navbar .logo{
+    font-size: x-large;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    height: 60px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+/* .header img{
+    max-width: 500px;
+} */
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .container-main{
+    width: 35%;
+}
+
+.hero-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+} */
+
+.hero-img{
+    width: 500px;
+}
+
+.hero-div {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-main-div {
+    width: 35%;
+  }
+  .hero-main-div p {
+    margin: 20px;
+    margin-left: 0px;
+  }
+
+  .hero .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  .hero .hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/* Flower display section */
+.displayflower h2{
+    text-align: center;
+    margin: 70px 32px;
+}
+
+.displayflower .container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.displayflower{
+    margin-bottom: 50px;
+}
+
+.info img{
+    max-width: 200px;
+}
+
+.info h3{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote div{
+    width: 50%;
+    text-align: center;
+}
+
+.quote div span{
+    float: right;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.quote-bg{
+    background-color: #e5e7eb
+}
+
+.quote .quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f1937;
+    opacity: 0.8;
+}
+
+.modal-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: auto;
+    width: 70%;
+}
+
+.modal-section div{
+    display: flex;
+}
+
+.modal-section .text-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-section div div{
+    margin: 50px;
+}
+
+/* .modal-section {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-section div {
+    display: flex;
+}
+
+.modal-section div .text-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-section div div {
+    margin: 50px;
+} */
+
+.modal-section div {
+    background-color: #3883f6;
+    border-radius: 10px;
+  }
+  
+.modal-section div strong {
+    color: white;
+    font-size: 24px;
+  }
+
+.modal-section div p {
+    color: white;
+    font-size: 16px;
+  }
+
+
+  .footer{
+    background-color: #1f1937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+}
+
